@@ -8,9 +8,14 @@ describe "Static pages" do
       page.should have_content('Sample App')
     end
 
-    it "should have the title 'Home'" do
+    it "should have bsae title'" do
       visit '/static_pages/home'
-      page.should have_title('Sample App | Home')
+      page.should have_title('Sample App')
+    end
+
+    it "should not have custom page title" do
+      visit '/static_pages/home'
+      page.should_not have_title('| Home')
     end
   end
 
