@@ -1,5 +1,7 @@
 == README
 
-Hartl sample rails app tutorial
+Just hacking with Rails Tutorial by Hartl
 
-* [tutorial link](http://ruby.railstutorial.org/chapters/static-pages#sec-first_tests)
+* [tutorial link](http://ruby.railstutorial.org/)
+
+* get some ideas for [http://pleaserefactor.com/](http://pleaserefactor.com/)
