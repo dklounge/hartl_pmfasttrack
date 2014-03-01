@@ -7,8 +7,8 @@ describe "Static pages" do
   describe "Home page" do
     before { visit root_path }
 
-    it { should have_content('Please Refactor') }
-    it { should have_title("Refactor") }
+    it { should have_content('Product Management') }
+    it { should have_title("PM Fast Track") }
     it { should_not have_title('| Home') }
   end
 
@@ -16,7 +16,7 @@ describe "Static pages" do
     before { visit help_path }
 
     it { should have_content('Help') }
-    it { should have_title("Refactor | Help") }
+    it { should have_title("PM Fast Track | Help") }
   end
 
   describe "About page" do
@@ -28,7 +28,7 @@ describe "Static pages" do
 
     it "should have the title 'About Us'" do
       visit about_path
-      expect(page).to have_title("Refactor | About Us")
+      expect(page).to have_title("PM Fast Track | About Us")
     end
   end
 
@@ -41,7 +41,7 @@ describe "Static pages" do
 
     it "should have the title 'Contact'" do
       visit contact_path
-      expect(page).to have_title("Refactor | Contact")
+      expect(page).to have_title("PM Fast Track | Contact")
     end
   end
 end
