@@ -1,7 +1,7 @@
-== README
+## README
 
-Just hacking with Rails Tutorial by Hartl
+Hacking Product Management Fast Track home page based on Hartl tutorial.
 
-* [tutorial link](http://ruby.railstutorial.org/)
+* [Hartl tutorial link](http://ruby.railstutorial.org/)
 
-* get some ideas for [http://pleaserefactor.com/](http://pleaserefactor.com/)
+* PM Fast Track page [http://productmanagementfasttrack.com/](http://productmanagementfasttrack.com/)

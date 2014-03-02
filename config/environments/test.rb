@@ -33,4 +33,8 @@ SampleApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  # Speed up tests by lowering bcrypt's cost function - relates to Factories
+  # http://ruby.railstutorial.org/chapters/sign-up
+  ActiveModel::SecurePassword.min_cost = true
 end
