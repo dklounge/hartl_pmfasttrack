@@ -12,11 +12,11 @@ describe "Static pages" do
     it { should_not have_title('| Home') }
   end
 
-  describe "Help page" do
-    before { visit help_path }
+  describe "Events page" do
+    before { visit events_path }
 
-    it { should have_content('Help') }
-    it { should have_title("PM Fast Track | Help") }
+    it { should have_content('Events') }
+    it { should have_title("PM Fast Track | Events") }
   end
 
   describe "About page" do
